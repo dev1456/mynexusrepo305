@@ -153,5 +153,18 @@
 </plugins>
 	</build>
 	
+	<distributionManagement>
+        <repository>
+            <id>deployment</id>
+            <name>Internal Releases</name>
+            <url>http://192.168.52.178:8081/repository/Munexustest</url>
+        </repository>
+        <snapshotRepository>
+            <id>deployment</id>
+            <name>Internal Snapshot Releases</name>
+            <url>http://192.168.52.178:8081/repository/Mynexustest1</url>
+        </snapshotRepository>
+    </distributionManagement>
+	
 	
 </project>
